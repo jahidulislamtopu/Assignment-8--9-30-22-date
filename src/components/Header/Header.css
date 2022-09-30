@@ -1,0 +1,16 @@
+.clubimg{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    
+}
+.headerh{
+    margin-left: 350px;
+}
+.club{
+    color: blueviolet;
+}

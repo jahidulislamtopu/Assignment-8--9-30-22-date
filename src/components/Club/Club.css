@@ -1,0 +1,43 @@
+.Club{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.exercise-container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: white;
+}
+.head{
+    display: flex;
+}
+.cart-container{
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+/*mobile*/
+@media only screen and (max-width: 767px) {
+.exercise-container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+}
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .exercise-container{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+
