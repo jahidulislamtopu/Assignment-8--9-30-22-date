@@ -18,6 +18,8 @@ const Club = () => {
         setCart(newcart);
         addToDb(element.id);
     }
+
+    // its used for feathing data 
     useEffect(() => {
         const storedCart = getStoredCart();
         const savedCart = [];
