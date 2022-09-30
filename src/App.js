@@ -10,6 +10,7 @@ function App() {
     <div className="Appali">
       {/* all header section is added in header file  */}
       <Header></Header>
+      {/* club section are added here  */}
       <Club></Club>
     </div>
   );
