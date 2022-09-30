@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <nav className='header-nav'>
             <img className='clubimg' src={logo} alt="" />
-            <h3 className='club'>Club_BD</h3>
-            
+            <h3 className='club'>Bull Fitness</h3>
+
         </nav>
     );
 };

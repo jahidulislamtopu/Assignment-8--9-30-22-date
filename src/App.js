@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 // toast.configure();
 function App() {
   return (
-    <div className="App">
+    <div className="Appali">
       <Header></Header>
       <Club></Club>
     </div>

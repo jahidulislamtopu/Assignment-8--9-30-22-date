@@ -1,36 +1,42 @@
-.element-img{
+.element-img {
     height: 200px;
     width: 100%;
     border-radius: 10px;
 }
-.element{
+
+.element {
     width: 300px;
-    
+
     /* border: 1px solid lightgray; */
     border-radius: 10px;
     padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
 }
-.element-name{
+
+.element-name {
     text-align: start;
 }
-.element-age{
-    text-align: start;
-    font-weight: 500;
-}
-.element-time{
+
+.element-age {
     text-align: start;
     font-weight: 500;
 }
-.button-add{
+
+.element-time {
+    text-align: start;
+    font-weight: 500;
+}
+
+.button-add {
     width: 100%;
-    background-color: coral;
+    background-color: rgba(59, 62, 230, 0.808);
     color: white;
     border: none;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.button-add:hover{
+
+.button-add:hover {
     background-color: brown;
 }
