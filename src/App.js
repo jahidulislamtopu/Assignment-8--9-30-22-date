@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="Appali">
+      {/* all header section is added in header file  */}
       <Header></Header>
       <Club></Club>
     </div>
